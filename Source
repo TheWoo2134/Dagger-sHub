@@ -1,3 +1,12 @@
+for i = 1,1 do 
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Made By God",
+		Text = "Welcome To Dagger Hub premium",
+		Icon = "",
+		Duration = 2,
+	})
+end
+
 local GamepassId = 41506473
 local message = ("contact TheWoo2005#4840 On Discord Or Purchase This https://www.roblox.com/game-pass/41506473/Normal gamepass")
 local MarketPlaceService = game:GetService("MarketplaceService")
