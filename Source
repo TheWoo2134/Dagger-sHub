@@ -881,3 +881,5 @@ local function VSTRJ_fake_script() -- MainFrame.LocalScript
 	end)
 end
 coroutine.wrap(VSTRJ_fake_script)()
+
+end
