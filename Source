@@ -704,7 +704,7 @@ Clicklift.TextWrapped = true
 Clicklift.MouseButton1Down:connect(function()
 	_G.Auto4 = true
 	while _G.Auto4 do
-		wait(6.2)
+		wait(4.2)
 		for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
 			if v.Name == "Double Weight" then v:Activate() end
 
