@@ -3,7 +3,7 @@ for i = 1,1 do
 		Title = "Made By God",
 		Text = "Welcome To Dagger Hub premium",
 		Icon = "",
-		Duration = 2,
+		Duration = 1.5,
 	})
 end
 
