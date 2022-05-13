@@ -103,6 +103,8 @@ MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 MainFrame.BorderColor3 = Color3.fromRGB(25, 25, 25)
 MainFrame.Position = UDim2.new(0.625971138, 0, 0.51510191, 0)
 MainFrame.Size = UDim2.new(0, 524, 0, 270)
+MainFrame.Active = true
+MainFrame.Draggable = true
 
 UICorner.Parent = MainFrame
 
@@ -736,9 +738,6 @@ FPS.TextSize = 30.000
 FPS.TextWrapped = true
 FPS.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/mmEr60d5", true))()
-end)
-FPS.MouseButton1Down:connect(function()
-	game:GetService("Players").LocalPlayer.PlayerGui.HUD:Destroy()
 end)
 FPS.MouseButton1Click:Connect(function()
     game:GetService("Players").LocalPlayer.PlayerGui.HUD.Frame.ProteinBuy:Destroy()
