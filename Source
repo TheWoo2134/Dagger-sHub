@@ -1,15 +1,3 @@
-local Plr = game.Players.LocalPlayer
-
-    Plr:GetMouse().KeyDown:Connect(function(K)
-        if K == "l" then
-            script.Parent.Visible = true
-        end
-    end)
-    Plr:GetMouse().KeyDown:Connect(function(K)
-        if K == "p" then
-            script.Parent.Visible = false
-        end
-    end)
 for i = 1,1 do
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "Made By God",
