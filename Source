@@ -1,4 +1,16 @@
-for i = 1,1 do 
+local Plr = game.Players.LocalPlayer
+
+    Plr:GetMouse().KeyDown:Connect(function(K)
+        if K == "l" then
+            script.Parent.Visible = true
+        end
+    end)
+    Plr:GetMouse().KeyDown:Connect(function(K)
+        if K == "p" then
+            script.Parent.Visible = false
+        end
+    end)
+for i = 1,1 do
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "Made By God",
 		Text = "Welcome To Dagger Hub premium",
@@ -103,8 +115,6 @@ MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 MainFrame.BorderColor3 = Color3.fromRGB(25, 25, 25)
 MainFrame.Position = UDim2.new(0.625971138, 0, 0.51510191, 0)
 MainFrame.Size = UDim2.new(0, 524, 0, 270)
-MainFrame.Active = true
-MainFrame.Draggable = true
 
 UICorner.Parent = MainFrame
 
